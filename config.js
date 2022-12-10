@@ -1,10 +1,12 @@
 let fs = require('fs') 
 let chalk = require('chalk')
 
+let waifu = JSON.parse(fs.readFileSync('./media/waifu.json'))
+
 owner = [
-  ['628882141495'],
-  ['628882141495'],
-  ['628882141495', 'Chandra XD', true]
+  ['6285785705233'],
+  ['6285785705233'],
+  ['6285785705233', 'Chandra XD', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 
