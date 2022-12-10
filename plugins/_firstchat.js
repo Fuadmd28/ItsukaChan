@@ -15,10 +15,9 @@ handler.before = async function (m) {
  //   await conn.modifyChat(m.chat, 'mute', -Math.floor(new Date / 1e3) * 1e3 - 1e3).catch(console.log)
 let tulisan = `${ucapan()}
 
-${banned ? `kamu *terbanned* kak 😕\nHubungi: wa.me/${owner[0]}` : 'Perkenalkan saya *ItsukaBot-Md*, bot yang dikembangkan oleh wa.me/628882141495\nItsukaBot-Md adalah bot whatsapp yang di bangun menggunakan Nodejs, yang berfungsi untuk memudahkan pengguna WhatsApp atau juga dapat berperan sebagai asisten virtual yang membalas setiap pesan WhatsApp secara otomatis dalam hitungan detik.\n\nSilahkan ketik :\n*#menu* untuk melihat semua fitur yang ada di bot.\n*#rules* untuk melihat peraturan yang ditentukan oleh bot.\n*#limit* untuk melihat limit, dan jika bot tidak merespon chat kamu berarti limit kamu sudah habis\n\nJoin gc jika kamu ingin mendownload sesuatu, baca rules jika melanggar langsung kick and banned https://chat.whatsapp.com/LiZnMJuhTTD9TVNOhzQeet'}
+${banned ? `kamu *terbanned* kak 😕\nHubungi: wa.me/${owner[0]}` : 'Perkenalkan saya *ItsukaBot-Md*, bot yang dikembangkan oleh wa.me/628882141495\nItsukaBot-Md adalah bot whatsapp yang di bangun menggunakan Nodejs, yang berfungsi untuk memudahkan pengguna WhatsApp atau juga dapat berperan sebagai asisten virtual yang membalas setiap pesan WhatsApp secara otomatis dalam hitungan detik.\n\nSilahkan ketik :\n*#menu* untuk melihat semua fitur yang ada di bot.\n*#rules* untuk melihat peraturan yang ditentukan oleh bot.\n*#limit* untuk melihat limit, dan jika bot tidak merespon chat kamu berarti limit kamu sudah habis\n\nJoin gc jika kamu ingin mendownload sesuatu, baca rules jika melanggar langsung kick and banned https://chat.whatsapp.com/I94979TI5J0Lr4z5uNMX6h'}
 `.trim()
-conn.reply(m.chat, tulisan, m, { contextInfo: { externalAdReply: { showAdAttribution: true, title: `${ucapan()} 👋`
-, body: '私はボットチャンドラです', sourceUrl: "https://api.whatsapp.com/send?phone=+628882141495", thumbnail: fs.readFileSync('./media/ppbot.jpg') }}})
+conn.reply(m.chat, tulisan, m)
     user.pc = new Date * 1
 }
 
