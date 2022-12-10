@@ -1,7 +1,5 @@
 let moment = require('moment-timezone')
 let handler = m => m
-let fs = require('fs')
-
 handler.before = async function (m) {
 
     if (m.chat.endsWith('broadcast') || m.key.remoteJid.endsWith('broadcast')) return
