@@ -15,3 +15,4 @@ handler.help = ['ippyshare'].map(v => 'z' + v + ' <url>')
 handler.tags = ['downloader']
 handler.command = /^z(s|ippy(dl|share)?)$/i 
 handler.premium = true
+module.exports = handler
