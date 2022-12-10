@@ -44,8 +44,7 @@ let assl = assal[Math.floor(Math.random() * assal.length)]
           key: m.key,
         }})
     setTimeout(() => {
-    conn.reply(m.chat, infonya, m, { contextInfo: { externalAdReply: { showAdAttribution: true, title: '                「 ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ 汉  」'
-, body: '私はボットチャンドラです', sourceUrl: "https://api.whatsapp.com/send?phone=+628882141495", thumbnail: fs.readFileSync('./media/ppbot.jpg') }}})
+    conn.reply(m.chat, infonya, m )
     }, 1000)
     }
 
