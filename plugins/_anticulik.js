@@ -1,6 +1,5 @@
 let fs = require('fs')
 let handler = m => m
-
 handler.all = async function (m, { isBlocked }) {
     if (isBlocked) return
     if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('Undangan untuk bergabung') || m.text.startsWith('Invitation to join') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup) {
@@ -12,8 +11,8 @@ handler.all = async function (m, { isBlocked }) {
 ⩩ 𝗣𝗔𝗬♡
 ┈┈┈┈┈┈┈         ͜͡               𖤣
 ➘
-    *Only*            ☁︎     ♡
-    *Dana*                        ✧
+    *All*            ☁︎     ♡
+   *Payment*                        ✧
                   இ
 ✧
 ┬ 📮 Note :
