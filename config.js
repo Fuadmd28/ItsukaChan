@@ -67,6 +67,10 @@ fs.watchFile(file_exif, () => {
   delete require.cache[file_exif]
   require('./lib/exif.json')
 })
+// Yang rapi dong dek :v 
+global.img = pickRandom(waifu)
+
+
 
 // Sticker WM
 packname = sticker_name
@@ -118,3 +122,7 @@ fs.watchFile(file, () => {
   delete require.cache[file]
   require(file)
 })
+
+function pickRandom(list) {
+  return list[Math.floor(list.length * Math.random())]
+}
