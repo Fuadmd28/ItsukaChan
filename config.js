@@ -45,7 +45,6 @@ APIKeys = { // APIKey Here
   'https://melcanz.com': 'melcantik',
   'https://leyscoders-api.herokuapp.com': 'dappakntlll',
   'https://x-restapi.herokuapp.com': 'BETA',
-  'https://ziy.herokuapp.com': 'xZiyy',
   'https://violetics.pw': 'beta'
 }
 
@@ -72,7 +71,8 @@ fs.watchFile(file_exif, () => {
 // Sticker WM
 packname = sticker_name
 author = sticker_author
-wm = '© 𝙄𝙩𝙨𝙪𝙠𝙖𝘽𝙤𝙩-𝙈𝙙 | 𝘾𝙝𝙖𝙣𝙙𝙧𝙖 𝙓𝘿'
+wm = `Jangan lupa donasi kak\nSaweria : https://saweria.co/pnggilajacn\nTrakteer : https://trakteer.id/pnggilajacn\n\n© 𝙄𝙩𝙨𝙪𝙠𝙖𝘽𝙤𝙩-𝙈𝙙 | 𝘾𝙝𝙖𝙣𝙙𝙧𝙖 𝙓𝘿`
+wm2 = '© 𝙄𝙩𝙨𝙪𝙠𝙖𝘽𝙤𝙩-𝙈𝙙 | 𝘾𝙝𝙖𝙣𝙙𝙧𝙖 𝙓𝘿'
 jepang = '私はボットチャンドラです'
 
 Intervalmsg = 900
