@@ -10,11 +10,11 @@ let handler = async (m, { conn, args }) => {
 	if (res.status !== 200) throw res.statusText
 	let fileName = res.headers.get('content-disposition').match(/attachment; filename=(.*)/)[1]
 	let mimetype = res.headers.get('content-type')
-	await m.reply('_In progress, please wait..._')
+	await m.reply('Sedang diproses...')
 	conn.sendMessage(m.chat, { document: { url }, fileName, mimetype }, { quoted: m })
 }
 handler.help = handler.alias = ['gitclone']
 handler.tags = ['downloader']
 handler.command = /^(gitclone)$/
-
+handler.limit = true 
 module.exports = handler

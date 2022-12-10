@@ -25,4 +25,3 @@ handler.command = /^yts(earch)?$/i
 handler.limit = true
 
 module.exports = handler
-
