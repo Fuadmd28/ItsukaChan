@@ -67,10 +67,13 @@ fs.watchFile(file_exif, () => {
   delete require.cache[file_exif]
   require('./lib/exif.json')
 })
+
 // Yang rapi dong dek :v 
 global.img = pickRandom(waifu)
-
-
+global.dtu = 'ᴅᴏɴᴀᴛᴇ'
+global.urlnya = "https://chandra-xd.github.io/trakteer.me"
+global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
+global.phn = '+62 857-8570-5233'
 
 // Sticker WM
 packname = sticker_name
@@ -79,8 +82,8 @@ wm = `Jangan lupa donasi kak\nSaweria : https://saweria.co/pnggilajacn\nTrakteer
 wm2 = '© 𝙄𝙩𝙨𝙪𝙠𝙖𝘽𝙤𝙩-𝙈𝙙 | 𝘾𝙝𝙖𝙣𝙙𝙧𝙖 𝙓𝘿'
 jepang = '私はボットチャンドラです'
 
-Intervalmsg = 900
-multiplier = 37
+Intervalmsg = 1900 // Ini semacam antispam udh biarin aja ngab
+multiplier = 100 // Makin tinggi makin susah bang
 rpg = {
   emoticon(string) {
     string = string.toLowerCase()
