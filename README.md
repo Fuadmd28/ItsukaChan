@@ -1,6 +1,7 @@
 # ItsukaBot-Md
 
-Script ini gratis jika ketahuan dijual maka akan di delete atau berhenti berkembang
+Script ini gratis jika ketahuan dijual maka akan di delete atau berhenti berkembang.
+Btw jangan hapus wm cuy hargain gw sedikit aja dah, intinya wm jangan dihapus!!
 
 ## Viewer 👁️
 <p align="center"><img src="https://profile-counter.glitch.me/{Chandra-XD}/count.svg" alt="neoxr :: Visitor's Count" /></p>
@@ -63,7 +64,7 @@ apt install wget curl git ffmpeg imagemagick build-essential libcairo2-dev libpa
 
 ---------
 
-[ INSTALLING NODEJS & AINE-MD ]
+[ INSTALLING NODEJS & ITSUKA-CHAN ]
 
 ```bash
 ubuntu
@@ -182,7 +183,7 @@ conn.logger.level = 'debug'
 
 ## Settings
 
-Now set using switch [enable.js](https://github.com/Aiinne/Aine-MD/blob/master/plugins/enable.js), among others are
+Now set using switch [o-enable.js](https://github.com/Chandra-XD/ItsukaChan/blob/master/plugins/o-enable.js), among others are
 
 ```js
 autoread: false, // If true all chats are automatically read
