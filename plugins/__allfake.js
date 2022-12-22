@@ -14,12 +14,16 @@ handler.all = async function (m) {
 		
 		// Ini untuk command crator/owner
 		global.kontak2 = [
-         [owner[0], await this.getName(owner[0] + '@s.whatsapp.net'), 'Developer Bot', 'cuancari074@gmail.com', true],
-         [owner[1], await this.getName(owner[1] + '@s.whatsapp.net'), 'ItsukaBot-Md', 'Nothing', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
+         [owner2[0], await this.getName(owner[0] + '@s.whatsapp.net'), 'Developer Bot', 'cuancari074@gmail.com', true],
+         [owner2[1], await this.getName(owner[1] + '@s.whatsapp.net'), 'Developer Ke 2', 'cuancari074@gmail.com', true],
+         [owner2[2], await this.getName(owner[2] + '@s.whatsapp.net'), 'ItsukaBot-Md', 'Nothing', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
         ]
 		
 		// pesan sementara
 		global.ephemeral = '86400' // 86400 = 24jam, kalo ingin di hilangkan ganti '86400' jadi 'null' atau ''
+
+                // Module
+                global.fetch = require('node-fetch')
 
 		// Troli
 		global.ftroli = { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { itemCount: 9999999999999999999999999999999999999999999999999999999, status: 1, surface: 1, message: wm2, orderTitle: wm2, sellerJid: '0@s.whatsapp.net' } } }
@@ -30,7 +34,8 @@ handler.all = async function (m) {
 		// Payment
 		global.fpay = { "key": { "remoteJid": "0@s.whatsapp.net","fromMe": false, "id": "BAE595C600522C9C", "participant": "0@s.whatsapp.net" }, "message": { "requestPaymentMessage": { "currencyCodeIso4217": wm2, "amount1000": 99999999999999, "requestFrom": "0@s.whatsapp.net", "noteMessage": { "extendedTextMessage": { "text": "Hai Kak 👋" }}, "expiryTimestamp": 99999999999999, "amount": { "value": 99999999999999, "offset": 99999999999999, "currencyCode": wm2 }}}}
 
-global.fake = pickRandom([ ftroli, fkontak, fpay ])
+                // Pilih random
+                global.fake = pickRandom([ ftroli, fkontak, fpay ])
 
 	}
 }
