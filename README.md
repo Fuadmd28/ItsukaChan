@@ -1,15 +1,15 @@
 <p align="center">
 <img src="https://raw.githubusercontent.com/Chandra-XD/cn-grabbed-result/main/media/gif/itsuka%20kotori%20on%20Tumblr.gif" />
 </p>
-<a href="https://visitor-badge.glitch.me/badge?page_id=Chandra-XD/Itsuka-Chan"><img title="Visitor" src="https://visitor-badge.glitch.me/badge?page_id=Chandra-XD/Itsuka-Chan"></a>
-<a href="https://github.com/Chandra-XD/Itsuka-Chan/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Chandra-XD/Itsuka-Chan?label=Forks&color=blue&style=flat-square"></a>
-<a href="https://github.com/Chandra-XD/Itsuka-Chan/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/Chandra-XD/Itsuka-Chan?label=Watchers&color=green&style=flat-square"></a>
-<a href="https://github.com/Chandra-XD/Itsuka-Chan/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/Chandra-XD/Itsuka-Chan?label=Stars&color=yellow&style=flat-square"></a>
-<a href="https://github.com/Chandra-XD/Itsuka-Chan/graphs/contributors"><img title="Contributors" src="https://img.shields.io/github/contributors/Chandra-XD/Itsuka-Chan?label=Contributors&color=blue&style=flat-square"></a>
-<a href="https://github.com/Chandra-XD/Itsuka-Chan/issues"><img title="Issues" src="https://img.shields.io/github/issues/Chandra-XD/Itsuka-Chan?label=Issues&color=success&style=flat-square"></a>
-<a href="https://github.com/Chandra-XD/Itsuka-Chan/issues?q=is%3Aissue+is%3Aclosed"><img title="Issues" src="https://img.shields.io/github/issues-closed/Chandra-XD/Itsuka-Chan?label=Issues&color=red&style=flat-square"></a>
-<a href="https://github.com/Chandra-XD/Itsuka-Chan/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/Chandra-XD/Itsuka-Chan?label=PullRequest&color=success&style=flat-square"></a>
-<a href="https://github.com/Chandra-XD/Itsuka-Chan/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/Chandra-XD/Itsuka-Chan?label=PullRequest&color=red&style=flat-square"></a>
+<a href="https://visitor-badge.glitch.me/badge?page_id=Chandra-XD/ItsukaChan"><img title="Visitor" src="https://visitor-badge.glitch.me/badge?page_id=Chandra-XD/ItsukaChan"></a>
+<a href="https://github.com/Chandra-XD/ItsukaChan/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Chandra-XD/ItsukaChan?label=Forks&color=blue&style=flat-square"></a>
+<a href="https://github.com/Chandra-XD/ItsukaChan/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/Chandra-XD/ItsukaChan?label=Watchers&color=green&style=flat-square"></a>
+<a href="https://github.com/Chandra-XD/ItsukaChan/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/Chandra-XD/ItsukaChan?label=Stars&color=yellow&style=flat-square"></a>
+<a href="https://github.com/Chandra-XD/ItsukaChan/graphs/contributors"><img title="Contributors" src="https://img.shields.io/github/contributors/Chandra-XD/ItsukaChan?label=Contributors&color=blue&style=flat-square"></a>
+<a href="https://github.com/Chandra-XD/ItsukaChan/issues"><img title="Issues" src="https://img.shields.io/github/issues/Chandra-XD/ItsukaChan?label=Issues&color=success&style=flat-square"></a>
+<a href="https://github.com/Chandra-XD/ItsukaChan/issues?q=is%3Aissue+is%3Aclosed"><img title="Issues" src="https://img.shields.io/github/issues-closed/Chandra-XD/ItsukaChan?label=Issues&color=red&style=flat-square"></a>
+<a href="https://github.com/Chandra-XD/ItsukaChan/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/Chandra-XD/ItsukaChan?label=PullRequest&color=success&style=flat-square"></a>
+<a href="https://github.com/Chandra-XD/ItsukaChan/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/Chandra-XD/ItsukaChan?label=PullRequest&color=red&style=flat-square"></a>
 
 # ItsukaBot-Md
 
