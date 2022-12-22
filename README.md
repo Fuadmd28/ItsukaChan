@@ -221,5 +221,7 @@ Semua yang selalu mendukung
 [![Fokus-ID](https://github.com/Fokusdotid.png?size=100)](https://github.com/Fokusdotid)
 [![NurFy](https://github.com/NurFy.png?size=100)](https://github.com/NurFy)
 [![SudoAnirudh](https://github.com/SudoAnirudh.png?size=100)](https://github.com/SudoAnirudh)
-[![Chandra-XD](https://github.com/Chandra-XD.png?size=100)](https://github.com/Chandra-XD)
 [![Ri](https://github.com/PixieID.png?size=100)](https://github.com/PixieID)
+
+## Penulis ulang 
+[![Chandra-XD](https://github.com/Chandra-XD.png?size=100)](https://github.com/Chandra-XD)
