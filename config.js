@@ -1,22 +1,28 @@
 let fs = require('fs') 
 let chalk = require('chalk')
-
 let waifu = JSON.parse(fs.readFileSync('./media/waifu.json'))
 
 owner = [
-  ['6285785705233'],
-  ['6285785705233'],
-  ['6285785705233', 'Chandra XD', true]
-  // [number, dia creator/owner?, dia developer?]
-] // Put your number here
+  ['6285785705233'], // global owner 0
+  ['6288905515893'], // global owner 1
+  ['6283848947227'], // global owner 2
+  ['6285785705233', 'Chandra XD', true] // global owner 3
+]
 
-lolkey = 'YourKey' // Registrasi atau beli di web https://api.lolhuman.xyz
-viokey = 'beta' // Ini gausah diubah udh bener
+owner2 = [
+'6285785705233', // global owner 1
+'6283848947227', // global owner 2
+'6288905515893' // global owner 3
+]
+
+apilolhuman = ['a243d5d9b0d811b81d63e6cf', '8e66d0934cf741bfd2182c16', '8e66d0934cf741bfd2182c16', '2e0da1f78d1721134b21816d', '902c3bc9d8c08b0dcf8f5373', '808693688ecc695293359089', '85faf717d0545d14074659ad']
+lolkey = pickRandom(apilolhuman) // ganti apikeylu disini klo nggak yaudah cara gantinya gini pickRandom(apilolhuman) ganti ke 'apikeylu' sama kek dibawah
+viokey = 'beta' // gausah diganti kont
+malesin = 'apikeylu' // mau apikeynya?? bilang ke agus
 
 mods = [] // Want some help?
 prems = [] // Premium user has unlimited limit
-APIs = { // API Prefix
-  // name: 'https://website'
+APIs = {
   nrtm: 'https://nurutomo.herokuapp.com',
   xteam: 'https://api.xteam.xyz',
   zahir: 'https://zahirr-web.herokuapp.com',
@@ -33,13 +39,12 @@ APIs = { // API Prefix
   lol: 'https://api.lolhuman.xyz',
   males : 'https://malesin.xyz'
 }
-APIKeys = { // APIKey Here
-  // 'https://website': 'apikey'
+APIKeys = {
   'https://api.xteam.xyz': 'apikeyaine',
   'https://anabotofc.herokuapp.com': 'AnaBot',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.neoxr.eu.org/': 'jVEMyB2ITJ',
-  'https://api.lolhuman.xyz': 'apikamu',
+  'https://api.lolhuman.xyz': 'SadTeams',
   'https://api.zeks.me': 'apikeyaine',
   'https://pencarikode.xyz': 'pais',
   'https://melcanz.com': 'melcantik',
@@ -68,22 +73,19 @@ fs.watchFile(file_exif, () => {
   require('./lib/exif.json')
 })
 
-// Yang rapi dong dek :v 
 global.img = pickRandom(waifu)
 global.dtu = 'ᴅᴏɴᴀᴛᴇ'
 global.urlnya = "https://chandra-xd.github.io/trakteer.me"
-global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
-global.phn = '+62 857-8570-5233'
 
 // Sticker WM
 packname = sticker_name
 author = sticker_author
-wm = `Jangan lupa donasi kak\nSaweria : https://saweria.co/pnggilajacn\nTrakteer : https://trakteer.id/pnggilajacn\n\n© 𝙄𝙩𝙨𝙪𝙠𝙖𝘽𝙤𝙩-𝙈𝙙 | 𝘾𝙝𝙖𝙣𝙙𝙧𝙖 𝙓𝘿`
-wm2 = '© 𝙄𝙩𝙨𝙪𝙠𝙖𝘽𝙤𝙩-𝙈𝙙 | 𝘾𝙝𝙖𝙣𝙙𝙧𝙖 𝙓𝘿'
+wm = `Jangan lupa donasi kak\nSaweria: https://saweria.co/pnggilajacn\nTrakteer: https://trakteer.id/pnggilajacn`
+wm2 = `© 𝙄𝙩𝙨𝙪𝙠𝙖𝘽𝙤𝙩-𝙈𝙙 | 𝘾𝙝𝙖𝙣𝙙𝙧𝙖 𝙓𝘿`
 jepang = '私はボットチャンドラです'
 
-Intervalmsg = 1900 // Ini semacam antispam udh biarin aja ngab
-multiplier = 100 // Makin tinggi makin susah bang
+Intervalmsg = 900
+multiplier = 100
 rpg = {
   emoticon(string) {
     string = string.toLowerCase()
