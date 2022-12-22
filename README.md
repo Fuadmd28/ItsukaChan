@@ -1,6 +1,6 @@
 # ItsukaBot-Md
 
-Script ini gratis jika ketahuan dijual maka akan di delete atau berhenti berkembang.
+Script ini gratis jika ketahuan dijual maka akan di delete atau berhenti berkembang. <br>
 Btw jangan hapus wm cuy hargain gw sedikit aja dah, intinya wm jangan dihapus!!
 
 ## Viewer 👁️
@@ -218,7 +218,8 @@ Semua yang selalu mendukung
 [![Chacax](https://github.com/Chacax.png?size=100)](https://github.com/Chacax)
 [![rahmad13](https://github.com/rahmad13.png?size=100)](https://github.com/rahmad13)
 [![Kangsad01](https://github.com/Kangsad01.png?size=100)](https://github.com/Kangsad01)
-[![Natx-C](https://github.com/Natx-C.png?size=100)](https://github.com/Natx-C)
+[![Fokus-ID](https://github.com/Fokusdotid.png?size=100)](https://github.com/Fokusdotid)
 [![NurFy](https://github.com/NurFy.png?size=100)](https://github.com/NurFy)
 [![SudoAnirudh](https://github.com/SudoAnirudh.png?size=100)](https://github.com/SudoAnirudh)
 [![Chandra-XD](https://github.com/Chandra-XD.png?size=100)](https://github.com/Chandra-XD)
+[![Ri](https://github.com/PixieID.png?size=100)](https://github.com/PixieID)
