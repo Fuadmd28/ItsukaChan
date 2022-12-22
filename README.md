@@ -1,14 +1,20 @@
 <p align="center">
 <img src="https://raw.githubusercontent.com/Chandra-XD/cn-grabbed-result/main/media/gif/itsuka%20kotori%20on%20Tumblr.gif" />
 </p>
+<a href="https://visitor-badge.glitch.me/badge?page_id=Chandra-XD/Itsuka-Chan"><img title="Visitor" src="https://visitor-badge.glitch.me/badge?page_id=Chandra-XD/Itsuka-Chan"></a>
+<a href="https://github.com/Chandra-XD/Itsuka-Chan/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Chandra-XD/Itsuka-Chan?label=Forks&color=blue&style=flat-square"></a>
+<a href="https://github.com/Chandra-XD/Itsuka-Chan/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/Chandra-XD/Itsuka-Chan?label=Watchers&color=green&style=flat-square"></a>
+<a href="https://github.com/Chandra-XD/Itsuka-Chan/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/Chandra-XD/Itsuka-Chan?label=Stars&color=yellow&style=flat-square"></a>
+<a href="https://github.com/Chandra-XD/Itsuka-Chan/graphs/contributors"><img title="Contributors" src="https://img.shields.io/github/contributors/Chandra-XD/Itsuka-Chan?label=Contributors&color=blue&style=flat-square"></a>
+<a href="https://github.com/Chandra-XD/Itsuka-Chan/issues"><img title="Issues" src="https://img.shields.io/github/issues/Chandra-XD/Itsuka-Chan?label=Issues&color=success&style=flat-square"></a>
+<a href="https://github.com/Chandra-XD/Itsuka-Chan/issues?q=is%3Aissue+is%3Aclosed"><img title="Issues" src="https://img.shields.io/github/issues-closed/Chandra-XD/Itsuka-Chan?label=Issues&color=red&style=flat-square"></a>
+<a href="https://github.com/Chandra-XD/Itsuka-Chan/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/Chandra-XD/Itsuka-Chan?label=PullRequest&color=success&style=flat-square"></a>
+<a href="https://github.com/Chandra-XD/Itsuka-Chan/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/Chandra-XD/Itsuka-Chan?label=PullRequest&color=red&style=flat-square"></a>
 
 # ItsukaBot-Md
 
 Script ini gratis jika ketahuan dijual maka akan di delete atau berhenti berkembang. <br>
 Btw jangan hapus wm cuy hargain gw sedikit aja dah, intinya wm jangan dihapus!!
-
-## Viewer 👁️
-<p align="center"><img src="https://profile-counter.glitch.me/{Chandra-XD}/count.svg" alt="neoxr :: Visitor's Count" /></p>
 
 ## Heroku Buildpack
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Chandra-XD/ItsukaChan)
@@ -227,5 +233,5 @@ Semua yang selalu mendukung
 [![SudoAnirudh](https://github.com/SudoAnirudh.png?size=100)](https://github.com/SudoAnirudh)
 [![Ri](https://github.com/PixieID.png?size=100)](https://github.com/PixieID)
 
-## Penulis ulang 
+## Penulis Ulang
 [![Chandra-XD](https://github.com/Chandra-XD.png?size=100)](https://github.com/Chandra-XD)
