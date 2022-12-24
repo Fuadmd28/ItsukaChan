@@ -17,7 +17,7 @@ Script ini gratis jika ketahuan dijual maka akan di delete atau berhenti berkemb
 Btw jangan hapus wm cuy hargain gw sedikit aja dah, intinya wm jangan dihapus!!
 
 ## FOR REPLIT
-[![Run on Repl.it](https://repl.it/badge/github/FadliDarmawan/haruno)](https://repl.it/github/Chandra-XD/IsukaChan)
+[![Run on Repl.it](https://repl.it/badge/github/FadliDarmawan/haruno)](https://repl.it/github/Chandra-XD/ItsukaChan)
 ```cmd
 Buka Console
 ------------
