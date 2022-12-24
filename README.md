@@ -16,6 +16,18 @@
 Script ini gratis jika ketahuan dijual maka akan di delete atau berhenti berkembang. <br>
 Btw jangan hapus wm cuy hargain gw sedikit aja dah, intinya wm jangan dihapus!!
 
+## FOR REPLIT
+[![Run on Repl.it](https://repl.it/badge/github/FadliDarmawan/haruno)](https://repl.it/github/Chandra-XD/IsukaChan)
+```cmd
+Buka Console
+------------
+> npm i
+> npm i qrcode
+> install-pkg webp
+> install-pkg ffmpeg
+-------------
+Click Run
+```
 ## Heroku Buildpack
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Chandra-XD/ItsukaChan)
 
