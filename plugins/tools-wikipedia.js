@@ -1,32 +1,11 @@
-/*const { wikipedia } = require('@bochilteam/scraper')
-let handler = async (m, { text, usedPrefix, command }) => {
-  if (!text) throw `Contoh penggunaan ${usedPrefix}${command} Minecraft`
-  let json = await wikipedia(text)
-  m.reply(`
-*${json.title}*
-${json.img}
-
-${json.articles}
-`.trim())
-}
-handler.help = ['wikipedia'].map(v => v + ' <apa>')
-handler.tags = ['internet']
-handler.command = /^(wiki|wikipedia)$/i
-
-module.exports = handler*/
-
-
-
-
 let axios = require("axios")
-let fetch = require("node-fetch")
 let cheerio = require("cheerio")
 async function wikipedia(querry) {
   try {
     const link = await axios.get(`https://id.wikipedia.org/wiki/${querry}`)
     const $ = cheerio.load(link.data)
     let judul = $('#firstHeading').text().trim()
-    let thumb = $('#mw-content-text').find('div.mw-parser-output > div:nth-child(1) > table > tbody > tr:nth-child(2) > td > a > img').attr('src') || `//k.top4top.io/p_2121ug8or0.png`
+    let thumb = $('#mw-content-text').find('div.mw-parser-output > div:nth-child(1) > table > tbody > tr:nth-child(2) > td > a > img').attr('src') || `//i.postimg.cc/Z5b1WDwD/1675949861324.jpg`
     let isi = []
     $('#mw-content-text > div.mw-parser-output').each(function (rayy, Ra) {
       let penjelasan = $(Ra).find('p').text().trim()
@@ -64,5 +43,4 @@ handler.help = ['wikipedia'].map(v => v + ' <text>')
 handler.tags = ['internet']
 handler.command = /^(wiki|wikipedia)$/i
 handler.limit = true 
-
 module.exports = handler
