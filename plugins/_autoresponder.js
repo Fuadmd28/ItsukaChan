@@ -1,33 +1,9 @@
-let fs = require('fs')
-let { MessageType } = require('@adiwajshing/baileys')
 let handler = m => m
 
 handler.all = async function (m, { isBlocked }) {
     if (isBlocked) return
-
-/*
-    let regl = /(I love you|love you)/i
-    let isLoveYou = regl.exec(m.text)
-    let lovou = [
-'❤️',
-'🥰',
-'😍'
-]
-let loveyou = lovou[Math.floor(Math.random() * lovou.length)]
-    if (isLoveYou && !m.fromMe) {
-    let helloaine = fs.readFileSync('./mp3/PTT-20211218-WA0243.opus') 
-    conn.sendMessage(m.chat, {
-        react: {
-          text: `${loveyou}`,
-          key: m.key,
-        }})
-   setTimeout(() => {
-        conn.sendFile(m.chat, helloaine, '', '', m, true)
-    }, 1000)
-    }
-    */
     
-    let ass = /(assalam(ualaikum)?|(salamualaiku|(sa(lamu|m)liku|sala))m)/i
+    let ass = /^ass?alam|اَلسَّلاَمُ عَلَيْكُمْ|السلام عليکم$/i 
     let isAss = ass.exec(m.text)
     let assal = [
 '🙏',
@@ -47,8 +23,9 @@ let assl = assal[Math.floor(Math.random() * assal.length)]
     conn.reply(m.chat, infonya, m )
     }, 1000)
     }
+    // pengen nambahin?? salin trs ganti kata"nya
 
 }
 
-handler.limit = true
+handler.limit = false
 module.exports = handler

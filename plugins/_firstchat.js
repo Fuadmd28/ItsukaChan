@@ -1,7 +1,7 @@
 let moment = require('moment-timezone')
 let handler = m => m
-handler.before = async function (m) {
 
+handler.before = async function (m) {
     if (m.chat.endsWith('broadcast') || m.key.remoteJid.endsWith('broadcast')) return
     if (m.fromMe) return
     if (m.isGroup) return
@@ -13,7 +13,7 @@ handler.before = async function (m) {
  //   await conn.modifyChat(m.chat, 'mute', -Math.floor(new Date / 1e3) * 1e3 - 1e3).catch(console.log)
 let tulisan = `${ucapan()}
 
-${banned ? `kamu *terbanned* kak 😕\nHubungi: wa.me/${owner[0]}` : 'Perkenalkan saya *ItsukaBot-Md*, bot yang dikembangkan oleh wa.me/628882141495\nItsukaBot-Md adalah bot whatsapp yang di bangun menggunakan Nodejs, yang berfungsi untuk memudahkan pengguna WhatsApp atau juga dapat berperan sebagai asisten virtual yang membalas setiap pesan WhatsApp secara otomatis dalam hitungan detik.\n\nSilahkan ketik :\n*#menu* untuk melihat semua fitur yang ada di bot.\n*#rules* untuk melihat peraturan yang ditentukan oleh bot.\n*#limit* untuk melihat limit, dan jika bot tidak merespon chat kamu berarti limit kamu sudah habis\n\nJoin gc jika kamu ingin mendownload sesuatu, baca rules jika melanggar langsung kick and banned https://chat.whatsapp.com/FXyktzaoWTl0biIUl6VvDM'}
+${banned ? `kamu *terbanned* kak 😕\nHubungi: wa.me/${owner[0]}` : 'Perkenalkan saya *ItsukaBot-Md*, bot yang dikembangkan oleh Chandra XD\nItsukaBot-Md adalah bot whatsapp yang di bangun menggunakan Nodejs, yang berfungsi untuk memudahkan pengguna WhatsApp atau juga dapat berperan sebagai asisten virtual yang membalas setiap pesan WhatsApp secara otomatis dalam hitungan detik.\n\nSilahkan ketik :\n*#menu* untuk melihat semua fitur yang ada di bot.\n*#rules* untuk melihat peraturan yang ditentukan oleh bot.\n*#limit* untuk melihat limit, dan jika bot tidak merespon chat kamu berarti limit kamu sudah habis\n\nJoin gc jika kamu ingin mendownload sesuatu, baca rules jika melanggar langsung kick and banned https://pnggilajacn.my.id/group'}
 `.trim()
 conn.reply(m.chat, tulisan, m)
     user.pc = new Date * 1
