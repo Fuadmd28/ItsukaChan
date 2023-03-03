@@ -2,6 +2,7 @@ let fs = require('fs')
 let chalk = require('chalk')
 let waifu = JSON.parse(fs.readFileSync('./media/waifu.json'))
 
+// Ini owner real no fek"
 owner = [
   ['6285785705233'], // global owner 0
   ['6288905515893'], // global owner 1
@@ -9,6 +10,7 @@ owner = [
   ['6285785705233', 'Chandra XD', true] // global owner 3
 ]
 
+// Ini cuma nampilin di plugins/info-creator.js
 owner2 = [
 '6285785705233', // global owner 1
 '6283848947227', // global owner 2
@@ -16,41 +18,23 @@ owner2 = [
 ]
 
 apilolhuman = ['a243d5d9b0d811b81d63e6cf', '8e66d0934cf741bfd2182c16', '8e66d0934cf741bfd2182c16', '2e0da1f78d1721134b21816d', '902c3bc9d8c08b0dcf8f5373', '808693688ecc695293359089', '85faf717d0545d14074659ad']
-lolkey = pickRandom(apilolhuman) // ganti apikeylu disini klo nggak yaudah cara gantinya gini pickRandom(apilolhuman) ganti ke 'apikeylu' sama kek dibawah
-viokey = 'beta' // gausah diganti kont
-malesin = 'apikeylu' // mau apikeynya?? bilang ke agus
+lolkey = pickRandom(apilolhuman) // klo punya apikey sendiri hapus aja ganti apikeylu
+viokey = 'beta' // gausah diganti ini
+itsuka = 'ItsukaChan' // gausah di ganti ini
 
 mods = [] // Want some help?
 prems = [] // Premium user has unlimited limit
 APIs = {
   nrtm: 'https://nurutomo.herokuapp.com',
-  xteam: 'https://api.xteam.xyz',
-  zahir: 'https://zahirr-web.herokuapp.com',
-  bcil: 'https://75.119.137.248:21587',
-  neoxr: 'https://api.neoxr.eu.org',
-  zeks: 'https://api.zeks.me',
-  ana: 'https://anabotofc.herokuapp.com',
-  gimez: 'https://masgimenz.my.id',
-  melcanz: 'https://melcanz.com',
-  pencarikode: 'https://pencarikode.xyz',
-  LeysCoder: 'https://leyscoders-api.herokuapp.com',
-  restapi: 'https://x-restapi.herokuapp.com',
   violetics : 'https://violetics.pw',
   lol: 'https://api.lolhuman.xyz',
-  males : 'https://malesin.xyz'
+  males: 'https://malesin.xyz',
+  can: 'https://pnggilajacn.my.id'
 }
 APIKeys = {
-  'https://api.xteam.xyz': 'apikeyaine',
-  'https://anabotofc.herokuapp.com': 'AnaBot',
-  'https://zahirr-web.herokuapp.com': 'zahirgans',
-  'https://api.neoxr.eu.org/': 'jVEMyB2ITJ',
   'https://api.lolhuman.xyz': 'SadTeams',
-  'https://api.zeks.me': 'apikeyaine',
-  'https://pencarikode.xyz': 'pais',
-  'https://melcanz.com': 'melcantik',
-  'https://leyscoders-api.herokuapp.com': 'dappakntlll',
-  'https://x-restapi.herokuapp.com': 'BETA',
-  'https://violetics.pw': 'beta'
+  'https://violetics.pw': 'beta',
+  'https://pnggilajacn.my.id': 'ItsukaChan'
 }
 
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
@@ -73,18 +57,23 @@ fs.watchFile(file_exif, () => {
   require('./lib/exif.json')
 })
 
-global.img = pickRandom(waifu)
+// Template button
 global.dtu = 'ᴅᴏɴᴀᴛᴇ'
-global.urlnya = "https://chandra-xd.github.io/trakteer.me"
+global.urlnya = "https://pnggilajacn.my.id/contacts"
+
+// Random
+global.doc = pickRandom(["application/vnd.ms-excel", "application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/msword", "application/pdf"])
+global.img = pickRandom(waifu)
+global.ephemeral = '86400' // 86400 = 24jam, kalo ingin di hilangkan ganti '86400' jadi 'null' atau ''
 
 // Sticker WM
 packname = sticker_name
 author = sticker_author
-wm = `Jangan lupa donasi kak\nSaweria: https://saweria.co/pnggilajacn\nTrakteer: https://trakteer.id/pnggilajacn`
+wm = `Jangan lupa donasi kak\nSaweria : https://saweria.co/pnggilajacn\nTrakteer : https://trakteer.id/pnggilajacn`
 wm2 = `© 𝙄𝙩𝙨𝙪𝙠𝙖𝘽𝙤𝙩-𝙈𝙙 | 𝘾𝙝𝙖𝙣𝙙𝙧𝙖 𝙓𝘿`
 jepang = '私はボットチャンドラです'
 
-Intervalmsg = 900
+Intervalmsg = 900 // Ini antispam, klo pengen lama tambahin jadi 1800
 multiplier = 100
 rpg = {
   emoticon(string) {
