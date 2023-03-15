@@ -1,39 +1,16 @@
-/* let fetch = require('node-fetch')
-let handler = async (m, { conn, args, usedPrefix, command }) => {
-if (!args[0]) throw `contoh:\n ${usedPrefix}${command} https://vm.tiktok.com/ZSRtNxugp`
-if (!args[0].includes("tiktok")) return m.reply(`Link Invalid`)
-   let rest = await fetch(`https://malesin.xyz/tiktok?url=${args[0]}`)
-   let res = await rest.json()
-   let { title, author, video, audio, videoWM } = res
-m.reply('Sedang diproses...')
-conn.sendFile(m.chat, video, 'tiktok.mp4', `*Tiktok Downloader*
-
-*Title :* ${title}
-*Link :* ${await shortlink(video)}`, m)
-}
-handler.help = ['tiktok'].map(v => v + ' <url>')
-handler.tags = ['downloader']
-handler.limit = true
-handler.command = /^(tt|tik(tok)?(dl)?)$/i
-module.exports = handler
-
-async function shortlink(url) {
-isurl = /https?:\/\//.test(url)
-return isurl ? (await require('axios').get('https://tinyurl.com/api-create.php?url='+encodeURIComponent(url))).data : ''
-}
-*/
-let fetch = require('node-fetch')
-let axios = require('axios')
+let axios = require('axios');
 let handler = async (m, { conn, args }) => {
-  if (!args[0]) throw 'Uhm...url nya mana?'
-  let res = await fetch(API('lol', '/api/tiktok', { url: args[0] }, 'apikey'))
-  let json = await res.json()
-  m.reply('Sedang diproses...')
-  let txt = `*Link :* ${await(await axios.get(`https://tinyurl.com/api-create.php?url=${args[0]}`)).data}` 
-  await conn.sendFile(m.chat, json.result.link, 'tiktok.mp4', txt, m )
+    if (!args[0]) throw m.reply('Putting *URL* Tiktok...')
+    if (!args[0].match(/tiktok/gi)) throw `Invalid *URL*`
+    let res = (await axios.get(API('can', '/api/download/tiktok', { url: args[0] } ))).data;
+    if (res.status != 200) throw res.message;
+    if (!res) throw res.message;
+    await m.reply('Sedang diproses...')
+    await conn.sendMessage(m.chat, { video: { url: res?.video?.url?.no_wm }, caption: `${res?.video?.loves || 'unknown'} Likes, ${res?.video?.views || 'unknown'} Views, ${res?.video?.comments || 'unknown'} Comments, ${res?.video?.shares || 'unknown'} Shares. Tiktok Video From ${res?.author?.name || 'unknown'} (${res?.author?.username || 'unknown'})\n\nSound : ${res?.backsound?.name || 'unknown'}\nLink : ${res?.backsound?.url || 'unknown'}`}, { quoted: m })
 }
 handler.help = ['tiktok'].map(v => v + ' <url>')
 handler.tags = ['downloader']
+handler.command = /^(tiktok|tt)$/i
 handler.limit = true
-handler.command = /^(tt|tik(tok)?(dl)?)$/i
+handler.group = false
 module.exports = handler
