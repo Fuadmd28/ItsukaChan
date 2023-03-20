@@ -4,17 +4,17 @@ let waifu = JSON.parse(fs.readFileSync('./media/waifu.json'))
 
 // Ini owner real no fek"
 owner = [
-  ['6285785705233'], // global owner 0
-  ['6288905515893'], // global owner 1
-  ['6283848947227'], // global owner 2
-  ['6285785705233', 'Chandra XD', true] // global owner 3
+  ['628989513496'], // global owner 0
+  ['628989513496'], // global owner 1
+  ['628989513496'], // global owner 2
+  ['628989513496', 'Bang FD', true] // global owner 3
 ]
 
 // Ini cuma nampilin di plugins/info-creator.js
 owner2 = [
-'6285785705233', // global owner 1
-'6283848947227', // global owner 2
-'6288905515893' // global owner 3
+'628989513496', // global owner 1
+'628989513496', // global owner 2
+'628989513496' // global owner 3
 ]
 
 apilolhuman = ['a243d5d9b0d811b81d63e6cf', '8e66d0934cf741bfd2182c16', '8e66d0934cf741bfd2182c16', '2e0da1f78d1721134b21816d', '902c3bc9d8c08b0dcf8f5373', '808693688ecc695293359089', '85faf717d0545d14074659ad']
@@ -42,8 +42,8 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = '© 𝙄𝙩𝙨𝙪𝙠𝙖𝘽𝙤𝙩-𝙈𝙙'
-  var sticker_author = '𝘾𝙝𝙖𝙣𝙙𝙧𝙖 𝙓𝘿'
+  var sticker_name = '© Bang FD'
+  var sticker_author = 'Kayoko MD'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -70,7 +70,7 @@ global.ephemeral = '86400' // 86400 = 24jam, kalo ingin di hilangkan ganti '8640
 packname = sticker_name
 author = sticker_author
 wm = `Jangan lupa donasi kak\nSaweria : https://saweria.co/pnggilajacn\nTrakteer : https://trakteer.id/pnggilajacn`
-wm2 = `© 𝙄𝙩𝙨𝙪𝙠𝙖𝘽𝙤𝙩-𝙈𝙙 | 𝘾𝙝𝙖𝙣𝙙𝙧𝙖 𝙓𝘿`
+wm2 = `© Bang FD | Kayoko MD`
 jepang = '私はボットチャンドラです'
 
 Intervalmsg = 900 // Ini antispam, klo pengen lama tambahin jadi 1800
